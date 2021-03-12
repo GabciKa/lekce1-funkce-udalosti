@@ -1,7 +1,5 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
-
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
@@ -18,4 +16,24 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+}
+
+let gratulace = "Gratulace, právě jsi spustila tuto funkci!";
+
+function upozorni() {
+  let obsah = document.querySelector(".ctverecek");
+    obsah.textContent = gratulace;
+    obsah.style.width = "400px";
+
+  console.log(gratulace);
+   alert(gratulace);
+}
+
+function zmenBarvu () {
+  let squareElement = document.querySelector('.ctverecek');
+  document.querySelector('.ctverecek').style.backgroundColor = 'green';
+}
+
+function vysledek () {
+  document.querySelector("#vysledek").innerHTML = secti(4, 5);
 }
