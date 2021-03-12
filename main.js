@@ -14,9 +14,6 @@ function secti(a, b) {
 /**
  * Upozorní uživatele při spuštění.
  */
-function upozorni() {
-  alert("Gratulace, právě jsi spustila tuto funkci!");
-}
 
 let gratulace = "Gratulace, právě jsi spustila tuto funkci!";
 
